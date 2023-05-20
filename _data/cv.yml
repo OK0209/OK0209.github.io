@@ -12,12 +12,12 @@
   type: time_table
   contents:
     - title: Master
-      institution: College of Architecture and Landscape of Peking University, Beijing, China
+      institution: College of Architecture and Landscape of Peking University
       year: 2022-2024
       description:
         - Major  ——  Landscape Design
     - title: Bachelor
-      institution: School of Architecture and Planning of Hunan University, Changsha, China
+      institution: School of Architecture and Planning of Hunan University
       year: 2017-2022
       description:
         - Major  ——  Urban Planning
