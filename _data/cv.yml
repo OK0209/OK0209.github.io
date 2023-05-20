@@ -2,82 +2,62 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Keyi Liu 
     - name: Date of Birth
-      value: 14th March 1879
+      value: 9th Feb 2000
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: College of Architecture and Landscape of Peking University, Beijing, China
+      year: 2022-2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Major  ——  Landscape Design
+    - title: Bachelor
+      institution: School of Architecture and Planning of Hunan University, Changsha, China
+      year: 2017-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Major  ——  Urban Planning
 
-- title: Experience
+- title: Research Project
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: The Research on Color Image Analysis and Activation of Ancient Buildings Based on NCD
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Keywords ——  NCD; color image; color activation; Yuelu Academy
+        - Authors  ——  Qian Huang, Keyi Liu*, Jianan Gua, Zhaozhe Yang 
+        - Journal  ——  Under review
+    - title: Research on the Application of Color Acquisition Method and Process Design in the Protection of Ancient Buildings—A Case Study of Yuelu Academy
+      year: 2017-2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        - Keywords ——  authenticity; color acquisition; the logic of color acquisition; color error; Yuelu Academy
+        - Author   ——  Qian Huang, Yi He, Zhaozhe Yang, Keyi Liu*, Jianan Gua, Yishen Zhao 
+        - Journal  ——  Under review
 
 - title: Honors and Awards
-  type: time_table
+  type: nested_list
   contents:
-    - year: 1921
+    - title: Scientific research 
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+        - 2020      First prize in Chinese College Students Innovation and Entrepreneurship Training Program (SIT) 
+        - 2020      Bronze Award in the sixth "Internet Plus" National College Student Innovation and Entrepreneurship Competition of Hunan Universities 
+    - title: Scholarship
+      items:
+        - 2020-2021     Single Scholarship of School of Architecture, Hunan University
+        - 2019-2020     Single Scholarship of School of Architecture, Hunan University
+        - 2018-2019     Single Scholarship of School of Architecture, Hunan University
+        - 2017-2018     Second-class Scholarship of School of Architecture, Hunan University
+    - title: extracurricular practice
+      items:
+        - 2019     The best debater in a single match of "Chucai Qunying" Debate Competition of Hunan University  
+        - 2018     The best debater of "Current Affairs Cup" Debate Competition of Hunan University 
+        - 2018     The runner-up of "Ping An Property and Insurance Cup" Debate Competition of Hunan University
+        - 2018     Outstanding Individual of "Understanding China" Summer Survey of Rural Revitalization, School of Architecture, Hunan University
+        - 2018     Outstanding Youth League Cadre of Hunan University
 
 - title: Academic Interests
   type: nested_list
@@ -85,7 +65,7 @@
     - title: Topic 1.
       items: 
         - Description 1.
-        - Description 2.
+        - Description 2. 
     - title: Topic 2.
       items:
         - Description 1.
@@ -94,4 +74,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Singing, Watching Movies, etc.
