@@ -1,0 +1,2 @@
+BigFile.rar filter=lfs diff=lfs merge=lfs -text
+BigFlie.rar filter=lfs diff=lfs merge=lfs -text

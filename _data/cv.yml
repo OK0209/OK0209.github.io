@@ -13,7 +13,7 @@
   contents:
     - title: Master
       institution: College of Architecture and Landscape of Peking University
-      year: 2022-2024
+      year: 2022-2025
       description:
         - Major  ——  Landscape Design
     - title: Bachelor
@@ -25,13 +25,13 @@
 - title: Research Project
   type: time_table
   contents:
-    - title: The Research on Color Image Analysis and Activation of Ancient Buildings Based on NCD
+    - title: The Research on Color Image Analysis and Activation of Ancient Buildings Based on NCDs ——A Case Study of Yuelu Academy
       year: 2021-2022
       description:
         - Keywords ——  NCD; color image; color activation; Yuelu Academy
         - Authors  ——  Qian Huang, Keyi Liu*, Jianan Gua, Zhaozhe Yang 
         - Journal  ——  Under review
-    - title: Research on the Application of Color Acquisition Method and Process Design in the Protection of Ancient Buildings—A Case Study of Yuelu Academy
+    - title: Research on the Application of Color Acquisition Method and Process Design in the Protection of Ancient Buildings ——A Case Study of Yuelu Academy
       year: 2017-2022
       description:
         - Keywords ——  authenticity; color acquisition; the logic of color acquisition; color error; Yuelu Academy
@@ -39,25 +39,28 @@
         - Journal  ——  Under review
 
 - title: Honors and Awards
-  type: nested_list
+  type: time_table
   contents:
-    - title: Scientific research 
-      items: 
-        - 2020      First prize in Chinese College Students Innovation and Entrepreneurship Training Program (SIT) 
-        - 2020      Bronze Award in the sixth "Internet Plus" National College Student Innovation and Entrepreneurship Competition of Hunan Universities 
+    - title: Scientific research
+      year: 2020
+      description:
+        - 2020 —— First prize in Chinese College Students Innovation and Entrepreneurship Training Program (SIT) 
+        - 2020 —— Bronze Award in the sixth "Internet Plus" National College Student Innovation and Entrepreneurship Competition of Hunan Universities 
     - title: Scholarship
-      items:
-        - 2020-2021     Single Scholarship of School of Architecture, Hunan University
-        - 2019-2020     Single Scholarship of School of Architecture, Hunan University
-        - 2018-2019     Single Scholarship of School of Architecture, Hunan University
-        - 2017-2018     Second-class Scholarship of School of Architecture, Hunan University
+      year: 2017-2021
+      description:
+        - 2020-2021 —— Single Scholarship of School of Architecture, Hunan University
+        - 2019-2020 —— Single Scholarship of School of Architecture, Hunan University
+        - 2018-2019 —— Single Scholarship of School of Architecture, Hunan University
+        - 2017-2018 —— Second-class Scholarship of School of Architecture, Hunan University
     - title: Extracurricular practice
-      items:
-        - 2019     The best debater in a single match of "Chucai Qunying" Debate Competition of Hunan University  
-        - 2018     The best debater of "Current Affairs Cup" Debate Competition of Hunan University 
-        - 2018     The runner-up of "Ping An Property and Insurance Cup" Debate Competition of Hunan University
-        - 2018     Outstanding Individual of "Understanding China" Summer Survey of Rural Revitalization, School of Architecture, Hunan University
-        - 2018     Outstanding Youth League Cadre of Hunan University
+      year: 2018-2019
+      description:
+        - 2019 —— The best debater in a single match of "Chucai Qunying" Debate Competition of Hunan University  
+        - 2018 —— The best debater of "Current Affairs Cup" Debate Competition of Hunan University 
+        - 2018 —— The runner-up of "Ping An Property and Insurance Cup" Debate Competition of Hunan University
+        - 2018 —— Outstanding Individual of "Understanding China" Summer Survey of Rural Revitalization, School of Architecture, Hunan University
+        - 2018 ——  Outstanding Youth League Cadre of Hunan University
 
 - title: Academic Interests
   type: nested_list
@@ -74,4 +77,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Singing, Watching Movies, etc.
+    - <u>Hobbies:</u> Singing, Reading, etc.
