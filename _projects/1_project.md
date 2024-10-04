@@ -4,7 +4,7 @@ title: project 1
 description: another without an image
 img:
 importance: 1
-category: Academic
+category: Academic projects
 ---
 
 Every project has a beautiful feature showcase page.

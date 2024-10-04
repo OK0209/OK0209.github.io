@@ -4,7 +4,7 @@ title: Nucleic-acid-kiosk Recycle
 description: First-year graduate coursework
 img: assets/img/hst1.png
 importance: 4
-category: Fun
+category: Activities
 ---
 
 At first, let's take a look at a video to know the whole project!
