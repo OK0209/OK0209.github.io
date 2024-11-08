@@ -1,35 +1,52 @@
 ---
 layout: default
 ---
-<!-- _layouts/cv.html -->
-        <div class="post">
 
-          <header class="post-header">
-            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.cv_pdf %}
+      <a href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer" class="float-right">
+        <i class="fas fa-file-pdf"></i> Download PDF
+      </a>
+    {% endif %}
+  </header>
 
-          <article>
-            <div class="cv">
-              {% for entry in site.data.cv %}
-                <div class="card mt-3 p-3">
-                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-                  <div>
-                  {% if entry.type == "list" %}
-                    {% include cv/list.html %}
-                  {% elsif entry.type == "map" %}
-                    {% include cv/map.html %}
-                  {% elsif entry.type == "nested_list" %}
-                    {% include cv/nested_list.html %}
-                  {% elsif entry.type == "time_table" %}
-                   {% include cv/time_table.html %}
-                  {% else %}
-                    {{ entry.contents }}
-                  {% endif %}
-                  </div>
-                </div>
-              {% endfor %}
-              </div>
-          </article>
+  <article>
+    {% if page.cv_pdf %}
+      <!-- 使用 CSS 和媒体查询来设置自适应高度的 PDF 阅读器 -->
+      <style>
+        .pdf-viewer {
+          width: 100%;
+          height: 80vh; /* 默认高度设置为 80% 视口高度 */
+          min-height: 600px; /* 保证最小高度为 600px */
+          border: none;
+        }
 
-        </div>
+        /* 针对中等屏幕尺寸 (宽度小于 768px) 进行调整 */
+        @media (max-width: 768px) {
+          .pdf-viewer {
+            height: 70vh; /* 设置为 70% 视口高度 */
+            min-height: 500px; /* 保证最小高度为 500px */
+          }
+        }
+
+        /* 针对小屏幕 (宽度小于 480px) 进行调整 */
+        @media (max-width: 480px) {
+          .pdf-viewer {
+            height: 60vh; /* 设置为 60% 视口高度 */
+            min-height: 400px; /* 保证最小高度为 400px */
+          }
+        }
+      </style>
+
+      <!-- 嵌入 PDF 文件的 iframe -->
+      <iframe src="{{ page.cv_pdf | relative_url }}" class="pdf-viewer">
+          Your browser does not support iframes.
+      </iframe>
+      
+    {% else %}
+      <p>PDF not available.</p>
+    {% endif %}
+  </article>
+</div>

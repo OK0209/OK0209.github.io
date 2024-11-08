@@ -1,80 +1,126 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Nucleic-Acid-Station Recycle
+description: (2022) 
+img: assets/img/06HST/hst1.png
 importance: 6
 category: Activities
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+At first, let's take a look at a video to know the whole project!
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.html path="assets/videos/HST_video2.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div class="caption">
+   Project Introduction Video
+</div>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In the wake of the full relaxation of pandemic control measures, numerous nucleic acid testing kiosks have become underutilized. This presents an opportunity to repurpose these facilities, thereby achieving a dual benefit of waste reduction and enhanced public convenience.
+
+
+Utilizing the collected Point of Interest (POI) data, we conducted an analysis to determine the prevalence and spatial distribution of diverse commercial establishments within the research area. Furthermore, the road vector data collected was employed to perform isochronous circle analyses for each neighborhood, thereby delineating the 15-minute life circle range. By overlaying the POI data with the 15-minute isochron circles of the neighborhoods, we enhanced our understanding of the distribution and quantity of business types within the residential reach of each community.
+<div class="row">
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/01 Research and Analysis.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+   POI and Life Cycle Analysis Process
+</div>
+During the field research, we collected comprehensive data on the number and distribution of nucleic acid testing booths within the study area, along with their dimensions of length, width, and height. We also documented the features of doors and windows, the condition of equipment, and the relationship with the surrounding streets. Additionally, we conducted interviews with local residents to gather their basic information and to understand their expectations and opinions regarding the potential repurposing of these testing booths.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/06HST/02 filed survey.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Field survey and questionnaire
+</div>
+
+Based on the collected survey data and analysis, we have identified seven types of functional business formats suitable for the repurposing of nucleic acid testing booths. Additionally, taking into account the existing dimensions and basic conditions of the booths, we have designed three size options for each business format.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/03 7 functions.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Seven Bussiness Functions
+</div>
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc10.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Breakfast Shops
+    mainly provides breakfast items such as cake, milk and so on, for the surrounding residents.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/06HST/sc11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Grocery Store
+    which sells snacks and drinks, also sells periodicals.
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc12.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Green Grocery
+    It can provide fruit cutting and washing services. It is more suitable for the transformation of large nucleic acid point, small nucleic acid kiosk is not big enough for customers to choose the fruit.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc14.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Repair Shop
+    For repairng telephones and miniature furniture.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Pharmacy
+    It can be equipped with a doctor and a pharmacist in the form of a small clinic to consult patients with fever and dispensed medicines.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc15.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Cafe
+    Take-away drinks are available, and the large nucleic acid kiosk also provides some seating for in-room dining.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/06HST/sc16.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Expression station
+    It can be used for sending and receiving express, express temporary storage.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+With the progress of the project, we have been limited by quarantine measures, and also witnessed the relax of quarantine policy. Fortunately, we gradually returned to our normal life. It is gratifying to see that there have been various practical cases of nucleic acid kiosk transformation, which will urge us to implement our program.
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+(If you want the introduction in Chinese version, please click [here](https://mp.weixin.qq.com/s/0EGHjRmM4194ibDMgvPHWQ) for more information)
