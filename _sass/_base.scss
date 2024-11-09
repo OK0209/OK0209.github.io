@@ -112,11 +112,12 @@ blockquote {
 
 .profile {
   width: 100%;
+  font-family: Arial, sans-serif; // 设置新的字体
 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
+    font-family: Arial, sans-serif;
 
     p {
       display: inline-block;
@@ -135,7 +136,8 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 40%;
+    font-family: Arial, sans-serif;
 
     .address {
       p {
