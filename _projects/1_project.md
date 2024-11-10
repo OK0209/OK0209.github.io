@@ -35,6 +35,7 @@ To explore the two questions mentioned above, I have conducted research in the f
 
 ### **Research Progress** 
 This study is committed to developing a **multi-objective optimization** model based on **deep reinforcement learning** and combining classical geographical theories to explore new methods of land use planning.
+
 Data and expert knowledge collection is complete, and **model training is in progress**.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

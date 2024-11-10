@@ -117,11 +117,14 @@ blockquote {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: Arial, sans-serif;
+    
+    color: var(--global-grey-color);
 
     p {
       display: inline-block;
       margin: 0;
+      font-family: Arial, sans-serif;
+      font-size: 1rem;
     }
   }
 }
@@ -134,14 +137,19 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 700px) {
   .profile {
     width: 40%;
     font-family: Arial, sans-serif;
+    
+    
 
     .address {
+      text-align: right;
       p {
         display: block;
+        color: var(--global-grey-color);
+        font-size: 0.6rem;
       }
     }
   }
@@ -149,10 +157,12 @@ blockquote {
 
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
+  
 
   a {
     color: inherit;
+    font-family: Arial, sans-serif;
 
     &:hover {
       color: var(--global-theme-color);
