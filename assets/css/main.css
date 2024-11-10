@@ -48,6 +48,7 @@ html[data-theme=dark] {
   --global-footer-link-color: #000000;
   --global-distill-app-color: #e8e8e8;
   --global-divider-color: #424246;
+  --global-grey-color: #444444;
   --global-card-bg-color: #212529;
 }
 html[data-theme=dark] .fa-sun {
@@ -193,15 +194,18 @@ blockquote {
 
 .profile {
   width: 100%;
+  font-family: Arial, sans-serif;
 }
 .profile .address {
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: monospace;
+  color: var(--global-grey-color);
 }
 .profile .address p {
   display: inline-block;
   margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
 }
 
 .profile.float-right {
@@ -212,20 +216,27 @@ blockquote {
   margin-right: 1rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 700px) {
   .profile {
-    width: 30%;
+    width: 40%;
+    font-family: Arial, sans-serif;
+  }
+  .profile .address {
+    text-align: right;
   }
   .profile .address p {
     display: block;
+    color: var(--global-grey-color);
+    font-size: 0.6rem;
   }
 }
 .post-description {
   margin-bottom: 2rem;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 .post-description a {
   color: inherit;
+  font-family: Arial, sans-serif;
 }
 .post-description a:hover {
   color: var(--global-theme-color);
