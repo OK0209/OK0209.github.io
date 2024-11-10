@@ -22,9 +22,8 @@ In the wake of the full relaxation of pandemic control measures, numerous nuclei
 
 
 Utilizing the collected Point of Interest (POI) data, we conducted an analysis to determine the prevalence and spatial distribution of diverse commercial establishments within the research area. Furthermore, the road vector data collected was employed to perform isochronous circle analyses for each neighborhood, thereby delineating the 15-minute life circle range. By overlaying the POI data with the 15-minute isochron circles of the neighborhoods, we enhanced our understanding of the distribution and quantity of business types within the residential reach of each community.
-<div class="row">
-
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/01 Research and Analysis.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -33,8 +32,8 @@ Utilizing the collected Point of Interest (POI) data, we conducted an analysis t
 </div>
 During the field research, we collected comprehensive data on the number and distribution of nucleic acid testing booths within the study area, along with their dimensions of length, width, and height. We also documented the features of doors and windows, the condition of equipment, and the relationship with the surrounding streets. Additionally, we conducted interviews with local residents to gather their basic information and to understand their expectations and opinions regarding the potential repurposing of these testing booths.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/02 filed survey.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -43,8 +42,8 @@ During the field research, we collected comprehensive data on the number and dis
 </div>
 
 Based on the collected survey data and analysis, we have identified seven types of functional business formats suitable for the repurposing of nucleic acid testing booths. Additionally, taking into account the existing dimensions and basic conditions of the booths, we have designed three size options for each business format.
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-12 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/03 7 functions.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -53,72 +52,40 @@ Based on the collected survey data and analysis, we have identified seven types 
 </div>
 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc10.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Breakfast Shops
-    mainly provides breakfast items such as cake, milk and so on, for the surrounding residents.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Grocery Store
-    which sells snacks and drinks, also sells periodicals.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-4 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc12.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Green Grocery
-    It can provide fruit cutting and washing services. It is more suitable for the transformation of large nucleic acid point, small nucleic acid kiosk is not big enough for customers to choose the fruit.
-</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc14.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Repair Shop
-    For repairng telephones and miniature furniture.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc13.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Pharmacy
-    It can be equipped with a doctor and a pharmacist in the form of a small clinic to consult patients with fever and dispensed medicines.
-</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc15.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Cafe
-    Take-away drinks are available, and the large nucleic acid kiosk also provides some seating for in-room dining.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/06HST/sc16.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Expression station
-    It can be used for sending and receiving express, express temporary storage.
-</div>
+
 
 
 With the progress of the project, we have been limited by quarantine measures, and also witnessed the relax of quarantine policy. Fortunately, we gradually returned to our normal life. It is gratifying to see that there have been various practical cases of nucleic acid kiosk transformation, which will urge us to implement our program.

@@ -44,14 +44,14 @@ Data and expert knowledge collection is complete, and **model training is in pro
      
 </div>
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/01 AI/R2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 
-<div class="row mt-3">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.html path="assets/videos/AIGC.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
