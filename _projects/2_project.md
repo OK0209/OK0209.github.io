@@ -47,7 +47,11 @@ We utilized pathfinding and random walk algorithms to simulate household firewoo
 </div>
 
 ### **Key Findings**
-The study reveals that the **G2G program** achieves optimal financial efficiency at around **500 CNY/Mu**, with diminishing returns beyond **1000 CNY/Mu**. For the **F2E program**, a significant increase in electricity consumption and policy costs is observed when the subsidized electricity price drops below **0.3 CNY/kWh**. Comprehensive cost-efficiency analysis shows no significant correlation between financial burden and carbon emissions, but a positive association with habitat quality and a nonlinear relationship with total economic income. Pareto analysis identifies **18 optimal policy combinations** that balance carbon footprint, habitat quality, and financial benefits.
+- **G2G program** achieves optimal financial efficiency at around **500 CNY/Mu**, with diminishing returns beyond **1000 CNY/Mu**. 
+- **F2E program** shows a significant increase in electricity consumption and policy costs is observed when the subsidized electricity price drops below **0.3 CNY/kWh**. 
+- Comprehensive cost-efficiency analysis shows no significant correlation between financial burden and carbon emissions, but a positive association with habitat quality and a nonlinear relationship with total economic income. 
+- Pareto analysis identifies **18 optimal policy combinations** that balance carbon footprint, habitat quality, and financial benefits.
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.html path="assets/img/02SEEMS/03.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
