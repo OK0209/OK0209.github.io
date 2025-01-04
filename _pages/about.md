@@ -32,7 +32,7 @@ social: False  # includes social icons at the bottom of the page
 
 
 ### Research Interests
-- **Simulation-Based Evaluation for Planning**: Modeling and Simulation, ABM, Coupled Human and Nature System (CHANS), Policy Evaluation
+- **Simulation-Based Evaluation for Planning**: Scenario Planning, ABM, Coupled Human and Nature System (CHANS), Policy Evaluation
 - **Automation in Urban Planning and Design**: Reinforcement Learning, Multi-objective Optimization, AIGC, AI-Human Collaboration
 - **Spatiotemporal Geographic Data Analysis**: Trajectory Feature Extraction, Spatial Behavior Preferences
 
