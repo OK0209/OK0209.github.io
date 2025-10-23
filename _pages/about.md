@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  <a href='mailto:ky.liu@stu.pku.edu.cn'> ky.liu@stu.pku.edu.cn</a>.
+subtitle:  <a href='mailto:keyiliu@hku.hk'> keyiliu@hku.hk</a>.
 profile:
   align: right
   image: Keyi Liu3.jpg
