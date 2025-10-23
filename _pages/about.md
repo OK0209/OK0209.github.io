@@ -20,9 +20,9 @@ social: False  # includes social icons at the bottom of the page
   Welcome to Keyi Liu's website! 
 
 
- I am currently a graduate student in Landscape Architecture at the [College of Architecture and Landscape of Peking University](http://www.cala.pku.edu.cn/), where I am set to complete my studies by July 2025. 
+ I am currently a research assistant at the University of Hong kong.
 
- I hold a bachelor's degree in Urban and Rural Planning, which I earned in 2022 from [School of Architecture and planning, Hunan University](http://arch.hnu.edu.cn/index.htm). 
+ I earned my master’s in Landscape Architecture from Peking University in July 2025 and my bachelor’s in Urban and Rural Planning from Hunan University in 2022.
 
  On this site, you’ll find more about my background, including my academic experiences, projects, and personal interests.
 
